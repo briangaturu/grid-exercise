@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Chewy&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    background-color: hsl(214, 17%, 92%);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+    width: 1200px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    position: relative;
+    color: hsl(219, 29%, 14%);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card .pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgba(34, 32, 32, 0.5);
+  }
+  
+  .card h2 {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  .card-content {
+    font-size: 0.8rem;
+
+  }
+
+  .card1 {
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+    grid-column: span 2;
+    position: relative;
+  }
+  
+  .card1 .speech {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    width: 100px;
+    z-index: 0;
+    opacity: 0.4;
+  }
+  
+  .card2{
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+  }
+  
+  .card3 {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+  }
+  
+  .card4 {
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+    grid-column: span 2;
+    
+  }
+  .card5{
+    grid-row: 1/ span  2;
+    grid-column: 4;
+  }
+
+   
+  
+  
